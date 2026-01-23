@@ -28,7 +28,7 @@ const Footer = () => (
       <div className="my-6 border-t border-gray-200" />
 
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 text-md text-semibold text-black">
-        <p>© 20256 Bigbasket Inc. Copyright and rights reserved</p>
+        <p>© 2026 Bigbasket Inc. Copyright and rights reserved</p>
         <div className="flex gap-4">
           <a href="#" className="hover:text-lime-600">Terms and Conditions</a>
           <span>•</span>
