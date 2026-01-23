@@ -1,4 +1,4 @@
-// components/FeatureSection.jsx
+
 import React from 'react';
 import { Card, CardContent, CardMedia, Typography, Box, } from '@mui/material';
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -117,7 +117,7 @@ const categories = [
 
 const Categories_section = () => (
   <div className="py-14 bg-gradient-to-b from-white to-green-50 categories-section px-6 container  mx-auto">
-    {/* Heading */}
+   
     <h3
       className="text-center font-semibold lg:pb-12 pb-5 font-inclusive lg:text-6xl text-3xl"
     >
@@ -152,7 +152,6 @@ const Categories_section = () => (
           <div className="rounded-3xl shadow-xl overflow-hidden 
           bg-white hover:scale-105 transition-transform duration-300 categories-box">
 
-            {/* Image */}
             <div className="p-6 categories-img mb-1 relative overflow-hidden" style={{ backgroundColor: item.bg }}>
               <div className="categories-inner-img">
                 <img src={innerimg} alt="" />
@@ -164,7 +163,6 @@ const Categories_section = () => (
               />
             </div>
 
-            {/* Label */}
             <div className="bg-secondary text-white text-center font-semibold py-4">
               {item.title}
             </div>
