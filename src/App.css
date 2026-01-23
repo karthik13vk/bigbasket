@@ -1,0 +1,147 @@
+@import url("./assets/font/inclusive_sans/Inclusive_Sans.css");
+@import url("./assets/font/inter/inter.css");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #5e9400;
+  --color-secondary: #a6ce39;
+  --color-secondary_2: #191a15;
+  --font-inter: "Inter", sans-serif !important;
+  --font-inclusive: "Inclusive Sans", sans-serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #000000;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+ line-height: 1.5;
+}
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+.categories-section
+  .categories-box-area
+  .categories-box:nth-child(1)
+  .categories-img {
+  background-color: #e3ffb2;
+}
+.categories-section
+  .categories-box-area
+  .categories-box:nth-child(2)
+  .categories-img {
+  background-color: #ffe4bd;
+}
+.categories-section
+  .categories-box-area
+  .categories-box:nth-child(3)
+  .categories-img {
+  background-color: #f9e8ad;
+}
+.categories-section
+  .categories-box-area
+  .categories-box:nth-child(4)
+  .categories-img {
+  background-color: #fbd8d5;
+}
+.categories-section
+  .categories-box-area
+  .categories-box:nth-child(5)
+  .categories-img {
+  background-color: #d8ecfe;
+}
+
+
+.tab-slider-section .thumb-swiper.swiper-thumbs .swiper-wrapper{
+justify-content: space-evenly;
+}
+
+/* .categories-img::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+ background: url(./assets/images/line-bg.png) no-repeat center center;
+  opacity: 0.1;
+  z-index: 0;
+   pointer-events: none;
+} */
+
+.categories-inner-img img{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  left: 0;
+  top: 0;
+  opacity: 0.2;
+}
+
+.menu-btn {
+    font-size: 18px;
+    /* padding: 10px 15px; */
+    border: 1px solid #a6ce39;
+    border-radius: 6px;
+    color: #a6ce39;
+    width: 40px;
+    height: 40px;
+}
+.offcanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100vh;
+  background: #fff;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.15);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1001;
+  padding: 20px;
+}
+
+.offcanvas.open {
+  transform: translateX(0);
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.offcanvas nav a {
+  display: block;
+  padding: 10px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 1000;
+}
+
+@media (min-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
+}
