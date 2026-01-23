@@ -1,4 +1,3 @@
-import React from 'react';
 import roadmap from './../../assets/images/roadmap-img.png'
 import roadmap2 from './../../assets/images/roadmap-res.png'
 const StepsRoadmap = () => (

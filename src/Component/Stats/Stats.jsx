@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Typography } from '@mui/material';
 import CountUpOnScroll from "./CountUpOnScroll";
 import cities from './../../assets/images/cities.png'
