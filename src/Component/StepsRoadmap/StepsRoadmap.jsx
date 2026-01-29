@@ -1,5 +1,5 @@
 import roadmap from './../../assets/images/roadmap-img.png'
-import roadmap2 from './../../assets/images/roadmap-res.png'
+import roadmap2 from './../../assets/images/roadmap-res.png' 
 const StepsRoadmap = () => (
   <section className="py-14 bg-gradient-to-r from-green-50 to-blue-50">
     <div className="container mx-auto px-4">

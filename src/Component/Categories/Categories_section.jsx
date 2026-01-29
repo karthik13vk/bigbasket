@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 
 import "swiper/css";
-// import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Categories1 from './../../assets/images/Categories-1.png'
 import Categories2 from './../../assets/images/Categories-2.png'

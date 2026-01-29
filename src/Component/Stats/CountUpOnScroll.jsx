@@ -10,7 +10,7 @@ export default function CountUpOnScroll({ end, duration = 2000 }) {
       ([entry]) => {
         if (entry.isIntersecting && !hasAnimated) {
           setHasAnimated(true);
-          animateCount();
+          animateCount(); 
         }
       },
       { threshold: 0.5 }

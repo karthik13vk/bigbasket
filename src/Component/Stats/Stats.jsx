@@ -4,7 +4,7 @@ import cities from './../../assets/images/cities.png'
 import products from './../../assets/images/products.png'
 import brand from './../../assets/images/brand.png'
 import order from './../../assets/images/order.png'
-import heroBg from './../../assets/images/BB-BG.png'
+import heroBg from './../../assets/images/BB-BG.png' 
 
 const Stats = () => {
   const stats = [

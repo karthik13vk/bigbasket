@@ -9,9 +9,6 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import Box from "@mui/material/Box";
 import logo from  './../../assets/images/mainlogo.png'
-import { FiLogIn } from "react-icons/fi";
-import { RxAvatar } from "react-icons/rx";
-
 
 
 const Header = () => {
