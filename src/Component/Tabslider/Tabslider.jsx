@@ -77,7 +77,7 @@ color: #000;
                 modules={[Thumbs, Autoplay]}
                 thumbs={{ swiper: thumbsSwiper }}
                 speed={300}
-                autoplay={{
+                autoplay={{ 
                     delay: 2500,
                     disableOnInteraction: false,
                     pauseOnMouseEnter: true, 

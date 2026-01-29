@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Box, Typography } from "@mui/material";
 import { Button } from '@mui/material';
-import { FaRegClock } from "react-icons/fa";
+import { FaRegClock } from "react-icons/fa"; 
 
 import 'swiper/css';
 import bannerimage from './../../assets/images/hero-banner.jpeg'
