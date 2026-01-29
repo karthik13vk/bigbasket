@@ -40,8 +40,8 @@ const Header = () => {
           : "lg:absolute top-6 bg-transparent"
       }`}
     >
-      <div className="container mx-auto flex items-center justify-between px-6 py-3">
-        <div className="bg-white rounded-full px-6 py-3 flex items-center shadow-sm">
+      <div className="container mx-auto flex items-center justify-between px-6 py-2">
+        <div className="bg-white rounded-full px-3 py-2 flex items-center shadow-sm">
           <img
             src={logo}
             alt="bigbasket"

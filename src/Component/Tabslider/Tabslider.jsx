@@ -87,7 +87,7 @@ color: #000;
                     <SwiperSlide key={i}>
                         <div className="container  mx-auto bg-lime-50 rounded-3xl p-10 flex flex-col md:flex-row gap-8">
                             <div className="flex-1 text-left">
-                                <h4 className="font-semibold lg:text-5xl text-3xl  mb-3 text-secondary_2">
+                                <h4 className="font-semibold lg:text-4xl text-2xl  mb-3 text-secondary_2">
                                     {item.title}
                                 </h4>
                                 <div className="w-full h-[3px] bg-secondary mb-4" />
@@ -98,7 +98,7 @@ color: #000;
 
 
                             <div className="flex-1 flex justify-center">
-                                <img src={item.image} alt={item.title} className="w-full" />
+                                <img src={item.image} alt={item.title} className="w-full object-cover h-[220px]" />
                             </div>
                         </div>
                     </SwiperSlide>
