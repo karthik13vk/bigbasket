@@ -6,7 +6,7 @@ import { FaRegClock } from "react-icons/fa";
 import 'swiper/css';
 import bannerimage from './../../assets/images/hero-banner.jpeg'
 const Banner = () => (
-  <section className="relative bg-gradient-to-br from-green-500 to-green-700 overflow-hidden">
+  <section className="relative  overflow-hidden">
     <div className="md:absolute inset-0" />
     <img src={bannerimage} alt="Logo" className='w-full md:h-full h-100 object-cover' />
     <div className="container mx-auto px-4  flex flex-col items-center justify-center text-white text-center">
