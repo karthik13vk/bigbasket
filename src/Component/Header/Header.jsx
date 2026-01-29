@@ -37,7 +37,7 @@ const Header = () => {
       className={`w-full z-50 transition-all duration-300 ${
         scrolled
           ? "fixed top-0 bg-white/70 backdrop-blur-md shadow-md"
-          : "lg:absolute top-6 bg-transparent"
+          : "lg:absolute top-6 bg-transparent "
       }`}
     >
       <div className="container mx-auto flex items-center justify-between px-6 py-2">

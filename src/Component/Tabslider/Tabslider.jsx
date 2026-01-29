@@ -85,8 +85,8 @@ color: #000;
             >
                 {slides.map((item, i) => (
                     <SwiperSlide key={i}>
-                        <div className="container  mx-auto bg-lime-50 rounded-3xl p-10 flex flex-col md:flex-row gap-8">
-                            <div className="flex-1 text-left">
+                        <div className="container  mx-auto bg-lime-50 rounded-3xl p-10 flex flex-col md:flex-row gap-8 ">
+                            <div className="flex-1 text-left ">
                                 <h4 className="font-semibold lg:text-4xl text-2xl  mb-3 text-secondary_2">
                                     {item.title}
                                 </h4>

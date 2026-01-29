@@ -8,7 +8,7 @@ import bannerimage from './../../assets/images/hero-banner.jpeg'
 const Banner = () => (
   <section className="relative  overflow-hidden">
     <div className="md:absolute inset-0" />
-    <img src={bannerimage} alt="Logo" className='w-full md:h-full h-100 object-cover' />
+    <img src={bannerimage} alt="Logo" className='w-full md:h-full h-100 object-cover'/>
     <div className="container mx-auto px-4  flex flex-col items-center justify-center text-white text-center">
       <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full'>
         <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-2xl font-inter text-black">
